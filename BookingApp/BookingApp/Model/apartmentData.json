@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Apartment 1",
+        "capacity": "Good for 6 people",
+        "floor": "2nd floor",
+        "id": 1001,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum est nec lorem mattis interdum. Cras augue est, interdum eu consectetur et, faucibus vel turpis. Etiam pulvinar, enim quis elementum iaculis, tortor sapien eleifend eros, vitae rutrum augue quam sed leo. Vivamus fringilla, diam sit amet vestibulum vulputate, urna risus hendrerit arcu, vitae fringilla odio justo vulputate neque.",
+        "imageName": "Apartment1"
+    },
+    {
+        "name": "Apartment 2",
+        "capacity": "Good for couple",
+        "floor": "2nd floor",
+        "id": 4,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum est nec lorem mattis interdum. Cras augue est, interdum eu consectetur et, faucibus vel turpis. Etiam pulvinar, enim quis elementum iaculis, tortor sapien eleifend eros, vitae rutrum augue quam sed leo. Vivamus fringilla, diam sit amet vestibulum vulputate, urna risus hendrerit arcu, vitae fringilla odio justo vulputate neque.",
+        "imageName": "Apartment2"
+    },
+    {
+        "name": "Apartment 3",
+        "capacity": "Good for family",
+        "floor": "2nd floor",
+        "id": 5,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum est nec lorem mattis interdum. Cras augue est, interdum eu consectetur et, faucibus vel turpis. Etiam pulvinar, enim quis elementum iaculis, tortor sapien eleifend eros, vitae rutrum augue quam sed leo. Vivamus fringilla, diam sit amet vestibulum vulputate, urna risus hendrerit arcu, vitae fringilla odio justo vulputate neque.",
+        "imageName": "Apartment3"
+    },
+    {
+        "name": "Apartment 4",
+        "capacity": "Good for 1 person",
+        "floor": "2nd floor",
+        "id": 8,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum est nec lorem mattis interdum. Cras augue est, interdum eu consectetur et, faucibus vel turpis. Etiam pulvinar, enim quis elementum iaculis, tortor sapien eleifend eros, vitae rutrum augue quam sed leo. Vivamus fringilla, diam sit amet vestibulum vulputate, urna risus hendrerit arcu, vitae fringilla odio justo vulputate neque.",
+        "imageName": "Apartment4"
+    },
+    {
+        "name": "Apartment 5",
+        "capacity": "Good for 10 people",
+        "floor": "3rd floor",
+        "id": 11,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum est nec lorem mattis interdum. Cras augue est, interdum eu consectetur et, faucibus vel turpis. Etiam pulvinar, enim quis elementum iaculis, tortor sapien eleifend eros, vitae rutrum augue quam sed leo. Vivamus fringilla, diam sit amet vestibulum vulputate, urna risus hendrerit arcu, vitae fringilla odio justo vulputate neque.",
+        "imageName": "Apartment5"
+    },
+    {
+        "name": "Apartment 6",
+        "capacity": "Good for 7 people",
+        "floor": "3rd floor",
+        "id": 6,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum est nec lorem mattis interdum. Cras augue est, interdum eu consectetur et, faucibus vel turpis. Etiam pulvinar, enim quis elementum iaculis, tortor sapien eleifend eros, vitae rutrum augue quam sed leo. Vivamus fringilla, diam sit amet vestibulum vulputate, urna risus hendrerit arcu, vitae fringilla odio justo vulputate neque.",
+        "imageName": "Apartment6"
+    },
+    {
+        "name": "Apartment 7",
+        "capacity": "Good for 20 people",
+        "floor": "3rd floor",
+        "city": "Eaking",
+        "state": "Alaska",
+        "id": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum est nec lorem mattis interdum. Cras augue est, interdum eu consectetur et, faucibus vel turpis. Etiam pulvinar, enim quis elementum iaculis, tortor sapien eleifend eros, vitae rutrum augue quam sed leo. Vivamus fringilla, diam sit amet vestibulum vulputate, urna risus hendrerit arcu, vitae fringilla odio justo vulputate neque.",
+        "imageName": "Apartment7"
+    },
+    {
+        "name": "Apartment 8",
+        "capacity": "Good for 4 people",
+        "floor": "3rd floor",
+        "id": 2,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum est nec lorem mattis interdum. Cras augue est, interdum eu consectetur et, faucibus vel turpis. Etiam pulvinar, enim quis elementum iaculis, tortor sapien eleifend eros, vitae rutrum augue quam sed leo. Vivamus fringilla, diam sit amet vestibulum vulputate, urna risus hendrerit arcu, vitae fringilla odio justo vulputate neque.",
+        "imageName": "Apartment8"
+    },
+    {
+        "name": "Apartment 9",
+        "capacity": "Good for elders",
+        "floor": "4th floor",
+        "id": 3,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum est nec lorem mattis interdum. Cras augue est, interdum eu consectetur et, faucibus vel turpis. Etiam pulvinar, enim quis elementum iaculis, tortor sapien eleifend eros, vitae rutrum augue quam sed leo. Vivamus fringilla, diam sit amet vestibulum vulputate, urna risus hendrerit arcu, vitae fringilla odio justo vulputate neque.",
+        "imageName": "Apartment9"
+    },
+    {
+        "name": "Apartment 10",
+        "capacity": "Good for teenagers",
+        "floor": "3rd floor",
+        "id": 7,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum est nec lorem mattis interdum. Cras augue est, interdum eu consectetur et, faucibus vel turpis. Etiam pulvinar, enim quis elementum iaculis, tortor sapien eleifend eros, vitae rutrum augue quam sed leo. Vivamus fringilla, diam sit amet vestibulum vulputate, urna risus hendrerit arcu, vitae fringilla odio justo vulputate neque.",
+        "imageName": "Apartment10"
+    },
+]
