@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editCostID2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginRight="180dp"
+        android:ems="10"
+        android:hint="Cost of Service"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/textLabelID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editCostID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textLabelID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="How's the service?"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editCostID2"
+        app:layout_constraintTop_toBottomOf="@+id/editCostID2" />
+
+    <RadioGroup
+        android:id="@+id/tipOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textLabelID">
+
+        <RadioButton
+            android:id="@+id/option20_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amazing (20%)"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <RadioButton
+            android:id="@+id/option18_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Good (18%)"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="214dp" />
+
+        <RadioButton
+            android:id="@+id/option15_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Okay (15%)"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="289dp" />
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/switchRoundUp_ID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="50dp"
+        android:text="Round up tip?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textLabelID"
+        app:layout_constraintTop_toBottomOf="@+id/tipOptions" />
+
+    <Button
+        android:id="@+id/btnCalculateID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchRoundUp_ID"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <ImageView
+        android:id="@+id/costIconID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editCostID2"
+        app:layout_constraintEnd_toStartOf="@+id/editCostID2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editCostID2"
+        app:layout_constraintVertical_bias="0.666"
+        app:srcCompat="@drawable/ic_money"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/serviceIconID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/textLabelID"
+        app:layout_constraintEnd_toEndOf="@+id/costIconID"
+        app:layout_constraintStart_toStartOf="@+id/costIconID"
+        app:layout_constraintTop_toTopOf="@+id/textLabelID"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_room"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/roundupIconID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/switchRoundUp_ID"
+        app:layout_constraintEnd_toEndOf="@+id/serviceIconID"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/serviceIconID"
+        app:layout_constraintTop_toTopOf="@+id/switchRoundUp_ID"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_call"
+        tools:ignore="VectorDrawableCompat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

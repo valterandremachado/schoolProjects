@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LinearLayoutCodeAct3</string>
+    <string name="name">Lorem Ipsum</string>
+    <string name="yellow_star">Yellow star</string>
+
+    <string name="bio">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum molestie nunc auctor bibendum. Maecenas elementum lorem a faucibus suscipit. Duis eros enim, dapibus ac elit eget, semper bibendum libero. Etiam nec arcu suscipit, commodo sapien vitae, ullamcorper lectus. Proin et orci efficitur, tempor arcu nec, fermentum urna. Integer egestas rhoncus nibh vel mollis. Duis lorem massa, vulputate pellentesque mauris vel, pulvinar vestibulum mi. Donec in mattis nunc. Maecenas eget urna at mauris aliquam venenatis.
+
+Donec dolor nulla, tempor in purus sit amet, efficitur ullamcorper tortor. Nunc bibendum sagittis nulla, ac tincidunt felis sagittis pharetra. Quisque id orci pellentesque, accumsan nunc eu, varius dui. Duis nisl orci, dictum ut aliquet sit amet, vestibulum id velit. Mauris id feugiat purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vehicula vulputate varius. Fusce at enim bibendum, dictum dui ut, varius neque. Sed eget euismod lacus, et auctor lacus. Mauris in fermentum nunc, ut aliquet nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas posuere neque consectetur diam volutpat, non interdum magna efficitur. Nunc malesuada ex sit amet nulla dapibus, quis ultricies dolor eleifend. Pellentesque efficitur eros non pellentesque condimentum.
+
+Fusce enim lorem, elementum id venenatis a, ullamcorper a libero. Sed id tristique magna, non ornare diam. In hac habitasse platea dictumst. Aenean posuere elit quis elit congue malesuada. Vestibulum malesuada quis augue quis cursus. Sed interdum metus non lectus pellentesque, vitae hendrerit lorem molestie. Cras in ornare mauris. Curabitur feugiat purus sit amet ultricies convallis. Nam eleifend libero et rutrum finibus. In luctus finibus massa eget consectetur. Donec sodales massa in ligula condimentum, sit amet dignissim orci convallis. Vivamus finibus interdum nunc in blandit. Praesent molestie viverra nibh sit amet porta. Pellentesque semper augue nunc. Morbi tempor ut leo ut tristique.
+
+Morbi blandit bibendum feugiat. Morbi fermentum turpis vel mauris ultricies, vel imperdiet velit accumsan. Nunc facilisis eros orci, quis dapibus tellus hendrerit vel. Sed in rutrum lorem, quis egestas diam. Aliquam imperdiet, nulla nec pellentesque volutpat, augue nulla venenatis enim, non tincidunt sem est et neque. Donec laoreet ligula interdum eros lobortis, tincidunt fermentum risus vehicula. Etiam tincidunt orci quis lectus interdum fermentum.
+
+Nam in faucibus purus. Nulla nec scelerisque augue. Nullam pellentesque ligula purus, vitae eleifend sapien luctus in. In venenatis nunc eget ante suscipit, non iaculis dui finibus. Curabitur sed sollicitudin lectus. Etiam eget fringilla tellus. Sed imperdiet iaculis augue eu sollicitudin. Aenean facilisis, odio at fringilla consequat, elit turpis maximus nunc, sit amet consequat urna metus eget mauris. Nullam ut aliquam odio. Proin maximus faucibus metus quis tincidunt. Nunc tempor erat et felis elementum, nec tincidunt nisl commodo. Etiam iaculis augue quis quam condimentum vestibulum.
+
+    </string>
+</resources>
