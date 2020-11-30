@@ -1,0 +1,9 @@
+
+<resources>
+    <string name="app_name">CodeLab7SQLite</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_word">Add Todo</string>
+    <string name="button_save">Add</string>
+    <string name="empty_not_saved">todo not saved because it is empty.</string>
+    <string name="add_word">Add todo</string>
+</resources>
