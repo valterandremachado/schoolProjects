@@ -1,0 +1,4 @@
+#Mon Nov 30 19:09:43 PST 2020
+base.0=/Users/valterandremachado/Developer/Android Studio/CodeLab7SQLite/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
